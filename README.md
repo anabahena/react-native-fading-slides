@@ -1,3 +1,10 @@
+This is a clone of @chagasaway repo
+https://github.com/chagasaway/react-native-fading-slides
+
+Solving the issue Dynamic URL passing
+
+https://github.com/chagasaway/react-native-fading-slides/issues/3
+
 ## React Native FadingSlides Component
 
 Simple looped fading slides carousel for React Native.
@@ -39,24 +46,24 @@ imageHeight={1000} // Slide's image height
 var FadingSlides = require('react-native-fading-slides');
 
 var slides = [
-  {
-    image: require('image!squared-image'),
-    imageWidth: 100,
-    imageHeight: 100,
-    title: 'Hello World',
-    subtitle: 'This is a beautiful world',
-    titleColor: '#fff',
-    subtitleColor: '#fff'
-  },
-  {
-    image: require('image!wide-image'),
-    imageWidth: 200,
-    imageHeight: 100,
-    title: 'Bye World',
-    subtitle: 'This is a see you soon',
-    titleColor: '#fff',
-    subtitleColor: '#fff'
-  }
+    {
+        image: 'https://facebook.github.io/react/img/logo_og.png',
+        imageWidth: 100,
+        imageHeight: 100,
+        title: 'Hello World',
+        subtitle: 'This is a beautiful world',
+        titleColor: '#fff',
+        subtitleColor: '#fff'
+    },
+    {
+        image:  'https://facebook.github.io/react/img/logo_og.png',
+        imageWidth: 200,
+        imageHeight: 100,
+        title: 'Bye World',
+        subtitle: 'This is a see you soon',
+        titleColor: '#fff',
+        subtitleColor: '#fff'
+    }
 ];
 
 //...
